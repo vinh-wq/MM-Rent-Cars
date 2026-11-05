@@ -1,0 +1,15 @@
+M&M RENT A CAR - SITIO WEB
+==========================
+Abrir: doble clic en index.html (funciona sin servidor).
+Publicar: subir esta carpeta a cualquier hosting estatico (Netlify, Vercel, GitHub Pages, hosting con cPanel).
+
+CONFIGURACION (editar index.html, buscar en la seccion <script>):
+1. WHATSAPP_NUMBER = "503XXXXXXXX"  -> poner el numero real (codigo de pais + numero, sin + ni espacios).
+2. COMPANY = { phone, email, address, social } -> completar cuando se tengan.
+3. VEHICLES -> reemplazar los vehiculos de ejemplo por la flota real (marca, modelo, anio, tipo, trans, seats, fuel, price, desc, feats).
+4. Fotos: copiar las imagenes en assets/vehiculos/ y en cada vehiculo poner
+   images: ["assets/vehiculos/corolla-1.jpg","assets/vehiculos/corolla-2.jpg", ...]
+   (la primera es la principal; hasta 4 vistas).
+
+RUTAS: #inicio, #vehiculos, #nosotros, #contacto y #<slug-del-vehiculo> (ej. #toyota-corolla).
+Nota: el logo ya esta incrustado en index.html; assets/logo-original.png es el archivo original.
